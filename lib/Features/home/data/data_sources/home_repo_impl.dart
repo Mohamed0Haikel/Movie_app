@@ -26,6 +26,7 @@ class HomeRepoImpl implements HomeRepo {
     }
   }
 
+  @override
   Future<Either<Failure, List<MovieModel>>> getTopRatedMovies() async {
     try {
       final response = await apiService.get('/movie/top_rated');
