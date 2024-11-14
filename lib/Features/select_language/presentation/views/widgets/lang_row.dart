@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../../../constant.dart';
-import '../../manager/change_language_cubit/change_language_cubit.dart';
-import '../../manager/change_language_cubit/change_language_state.dart';
+import '../../manager/change_language_provider/change_language_provider.dart';
+import '../../manager/change_language_provider/change_language_state.dart';
 import 'language_container.dart';
 
 class LanguageRow extends StatefulWidget {

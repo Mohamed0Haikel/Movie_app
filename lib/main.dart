@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 import 'Features/auth/sign_in_view.dart';
-import 'Features/select_language/presentation/manager/change_language_cubit/change_language_cubit.dart';
+import 'Features/select_language/presentation/manager/change_language_provider/change_language_provider.dart';
 import 'constant.dart';
 import 'core/database/cache_helper.dart';
 import 'core/services/service_locator.dart';
