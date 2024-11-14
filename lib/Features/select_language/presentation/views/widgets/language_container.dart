@@ -30,7 +30,7 @@ class LanguageContainer extends StatelessWidget {
           color: color ?? Colors.transparent,
           borderRadius: BorderRadius.circular(10.0),
           border: Border.all(
-            color: AppConstants.kBlackColor.withOpacity(0.2),
+            color: AppConstants.kPrimaryColor.withOpacity(0.2),
             width: 1.2,
           ),
         ),
@@ -45,11 +45,11 @@ class LanguageContainer extends StatelessWidget {
             //     fit: BoxFit.fitHeight,
             //   ),
             // ),
-            // const SizedBox(height: 5),
+            const SizedBox(height: 5),
             Text(
               language,
               style: Styles.textStyle18.copyWith(
-                color: textColor ?? AppConstants.kBlackColor,
+                color: textColor ?? AppConstants.kWhiteColor,
               ),
             ),
             const SizedBox(height: 8),

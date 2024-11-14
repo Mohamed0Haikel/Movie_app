@@ -61,7 +61,7 @@ class _LanguageRowState extends State<LanguageRow> {
 
   void _selectEnglish(ChangeLanguageProvider provider) {
     setState(() {
-      colorEnglish = AppConstants.kContainerColor;
+      colorEnglish = AppConstants.kButtonColor;
       textColorEnglish = AppConstants.kWhiteColor;
       colorArabic = null;
       textColorArabic = null;
@@ -73,7 +73,7 @@ class _LanguageRowState extends State<LanguageRow> {
     setState(() {
       colorEnglish = null;
       textColorEnglish = null;
-      colorArabic = AppConstants.kBlackColor;
+      colorArabic = AppConstants.kSecondaryColor;
       textColorArabic = AppConstants.kWhiteColor;
     });
     provider.changeLang('ar');

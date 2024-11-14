@@ -6,6 +6,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'Features/auth/sign_in_view.dart';
 import 'Features/select_language/presentation/manager/change_language_provider/change_language_provider.dart';
+import 'Features/select_language/presentation/views/select_lang_view.dart';
 import 'constant.dart';
 import 'core/database/cache_helper.dart';
 import 'core/services/service_locator.dart';
@@ -51,7 +52,8 @@ class Movie extends StatelessWidget {
             Locale('en'),
             Locale('ar'),
           ],
-          home: const SignInView(),
+          // home: const SignInView(),
+          home: const SelectLangView(),
         );
       },
     );
